@@ -1,0 +1,5 @@
+outage_duration_s,distance_m,raw_fpe_m,matched_fpe_m,confidence_radius_m,ate_rmse_m,drift_pct,status
+10.0,62.0,5.18,5.02,27.8,2.32,8.1,PASSED
+30.0,223.3,19.32,19.1,131.4,11.26,8.6,PASSED
+60.0,388.8,20.36,1.72,283.6,12.83,0.4,PASSED
+120.0,839.5,63.2,62.46,1802.6,25.01,7.4,PASSED

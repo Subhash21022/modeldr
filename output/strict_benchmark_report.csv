@@ -1,0 +1,11 @@
+dataset,outage_duration_s,dist_m,fpe_raw_m,drift_raw_pct,fpe_snap_m,drift_snap_pct,ate_rmse_m,max_error_m,cep50_m,cep95_m,cov_2sigma_pct,grade
+dataset_2 (Primary Outage t=60s),10.0,62.0,3.67,5.91,3.48,5.61,1.6,3.48,0.71,3.16,100.0,C (MARGINAL)
+dataset_2 (Primary Outage t=60s),30.0,223.3,19.75,8.84,19.52,8.74,11.05,19.96,6.27,19.0,100.0,C (MARGINAL)
+dataset_2 (Primary Outage t=60s),60.0,388.8,20.41,5.25,0.03,0.01,12.94,24.47,9.26,23.52,100.0,A (EXCELLENT)
+dataset_2 (Primary Outage t=60s),120.0,839.5,62.73,7.47,61.86,7.37,24.15,61.9,15.24,52.38,100.0,C (MARGINAL)
+dataset_2 (Secondary Outage t=220s),10.0,1.1,4.49,17.94,1.33,5.3,1.46,2.68,1.33,2.25,37.6,A (STATIONARY PASS)
+dataset_2 (Secondary Outage t=220s),30.0,12.7,7.97,31.89,7.66,30.65,6.75,11.21,5.7,10.9,47.3,FAILED
+dataset_2 (Secondary Outage t=220s),60.0,72.1,62.95,87.36,62.95,87.36,29.56,67.26,9.96,64.86,37.5,FAILED
+dataset_3 (Held-Out Unseen Trip),10.0,72.0,6.83,9.49,6.78,9.42,3.94,6.85,3.0,6.81,100.0,C (MARGINAL)
+dataset_3 (Held-Out Unseen Trip),30.0,197.3,18.45,9.35,17.17,8.7,9.81,17.17,9.76,16.07,100.0,C (MARGINAL)
+dataset_3 (Held-Out Unseen Trip),60.0,301.4,18.4,6.1,2.28,0.76,16.23,23.53,17.43,22.4,100.0,A (EXCELLENT)
